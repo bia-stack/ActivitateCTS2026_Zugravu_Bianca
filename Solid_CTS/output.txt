@@ -1,0 +1,25 @@
+Nume: Cristescu
+Prenume: Daniel
+Varsta: 30
+Punctaj: 87
+Nr proiecte: 1
+Denumirea proiectului: [Ljava.lang.String;@1b0375b3
+Ocupatie: Tehnician dentar
+Salariu: 2800
+
+Angajatul Cristescu Daniel primeste10.0 Euro/zi in proiect.
+Aplicantul Cristescu Daniel a fost acceptat
+Nume: 
+Todose
+Prenume: Alexandra
+Varsta: 27
+Punctaj: 80
+Nr proiecte: 1
+Denumirea proiectului: [Ljava.lang.String;@1324409e
+Ocupatie: Marketing Specialist
+Salariu: 2300
+
+Angajatul 
+Todose Alexandra primeste10.0 Euro/zi in proiect.
+Aplicantul 
+Todose Alexandranua fost acceptat
