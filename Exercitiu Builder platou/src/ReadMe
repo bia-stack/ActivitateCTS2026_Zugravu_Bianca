@@ -1,0 +1,12 @@
+Atunci când un client face o comandă pentru un platou,
+acesta poate alege una din următoarele opțiuni:
+tipul de vin (Alb, Roșu, Roze),
+dimensiunea platoului (Mic, Mediu, Mare),
+miere organică,
+nuci caramelizate
+struguri proaspeți.
+În cazul în care clientul nu specifică opțiunile de tip vin sau dimensiune,
+acestea sunt setate pe valorile implicite
+Alb,
+respectiv Mediu. În cazul în care clientul nu specifică elementele de tip topping (miere, nuci, struguri),
+ acestea sunt setate pe false.Să se implementeze modulul care permite crearea de obiecte cu aceste opțiuni extra.
