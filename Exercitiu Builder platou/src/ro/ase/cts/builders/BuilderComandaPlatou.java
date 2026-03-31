@@ -27,11 +27,6 @@ public class BuilderComandaPlatou implements AbstractBuilder{
         return new ComandaPlatou();
     }
 
-    @Override
-    public AbstractBuilder setIDComanda(int IDComanda) {
-        this.IDComanda = IDComanda;
-        return this;
-    }
 
     @Override
     public AbstractBuilder setVin(GamaVin vin) {

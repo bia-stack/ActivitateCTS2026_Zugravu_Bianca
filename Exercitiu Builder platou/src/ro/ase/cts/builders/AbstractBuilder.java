@@ -6,7 +6,6 @@ import ro.ase.cts.clase.GamaVin;
 
 public interface AbstractBuilder {
     ComandaPlatou contruiesteComanda();
-    AbstractBuilder setIDComanda(int IDComanda);
     AbstractBuilder setVin(GamaVin vin);
     AbstractBuilder setDimensiunePlatou(DimensiunePlatou dimensiunePlatou);
     AbstractBuilder setMiereOrganica(boolean miereOrganica);
