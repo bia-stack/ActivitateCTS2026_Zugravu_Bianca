@@ -1,6 +1,6 @@
 package Composite.clase;
 
-public class Item implements IStructura {
+public class Item implements IStructura{
     private String denumire;
     private double pret;
 
@@ -10,7 +10,7 @@ public class Item implements IStructura {
     }
 
     @Override
-    public void afiseazaDetaliiStructura() {
-        System.out.println("Produs:"+denumire+"| Pret:"+pret);
+    public void afiseazaDetaliiStructura(String spatiu) {
+        System.out.println("Denumire produs: "+denumire+"| Pret:"+pret);
     }
 }

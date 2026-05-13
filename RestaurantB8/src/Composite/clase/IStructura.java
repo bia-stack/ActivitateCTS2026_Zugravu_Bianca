@@ -1,5 +1,5 @@
 package Composite.clase;
 
 public interface IStructura {
-    void afiseazaDetaliiStructura();
+    void afiseazaDetaliiStructura(String spatiu);
 }

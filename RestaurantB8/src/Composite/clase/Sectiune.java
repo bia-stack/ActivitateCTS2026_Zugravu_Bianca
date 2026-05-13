@@ -3,20 +3,20 @@ package Composite.clase;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sectiune implements IStructura {
-   private String denumire;
-   List<IStructura> subSectiune;
+public class Sectiune implements IStructura{
+    private String denumire;
+    List<IStructura> subSectiune;
 
     public Sectiune(String denumire) {
         this.denumire = denumire;
-        this.subSectiune = new ArrayList<>();
+        this.subSectiune=new ArrayList<>();
     }
 
     @Override
-    public void afiseazaDetaliiStructura() {
-        System.out.println("Denumire sectiune:"+this.denumire);
-        for(IStructura structura:subSectiune){
-            structura.afiseazaDetaliiStructura();
+    public void afiseazaDetaliiStructura(String spatiu) {
+        System.out.println("Denumire sectiune:"+denumire);
+        for(IStructura structura: subSectiune){
+            structura.afiseazaDetaliiStructura("\n");
         }
     }
 
@@ -28,7 +28,7 @@ public class Sectiune implements IStructura {
         subSectiune.remove(structura);
     }
 
-    public IStructura afiseazaPozitieNod(int poz){
+    public IStructura getNod(int poz){
         return subSectiune.get(poz);
     }
 }
